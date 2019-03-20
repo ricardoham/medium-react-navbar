@@ -1,7 +1,12 @@
 import React from 'react';
+import Navbar from '../components/navbar';
+import Routes from '../routes/routes';
 
 const App = () => (
-  <div>App works!</div>
+  <>
+    <Navbar />
+    <Routes />
+  </>
 );
 
 export default App;
