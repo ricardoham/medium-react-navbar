@@ -2,6 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 4px;
+  background-color: #eceff1;
 }
 
 .navbar__link {
@@ -12,4 +14,13 @@
   letter-spacing: .3em;
   text-indent: .3em;
   color: #181818;
+}
+
+.navbar__link:hover {
+  transform: translateY(-2px);
+}
+
+.navbar__link--active {
+  border-radius: 4px;
+  background-color: #29b6f6;
 }
