@@ -3,7 +3,7 @@ import React from 'react';
 class Contacts extends React.PureComponent {
   render() {
     return (
-      <div>Home Works!</div>
+      <div>Contact Works!</div>
     )
   }
 }

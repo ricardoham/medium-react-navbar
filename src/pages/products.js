@@ -3,7 +3,7 @@ import React from 'react';
 class Products extends React.PureComponent {
   render() {
     return (
-      <div>Home Works!</div>
+      <div>Products Works!</div>
     )
   }
 }
