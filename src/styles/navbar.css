@@ -23,4 +23,5 @@
 .navbar__link--active {
   border-radius: 4px;
   background-color: #29b6f6;
+  transition: background-color .5s ease-in-out;
 }
