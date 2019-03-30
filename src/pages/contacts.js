@@ -4,7 +4,7 @@ class Contacts extends React.PureComponent {
   render() {
     return (
       <div>Contact Works!</div>
-    )
+    );
   }
 }
 
