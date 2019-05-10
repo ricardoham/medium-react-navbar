@@ -9,11 +9,13 @@
 .navbar__link {
   margin: 1em;
   font-size: 2em;
+  font-family: 'Roboto', sans-serif;
   cursor: pointer;
   text-decoration: none;
   letter-spacing: .3em;
   text-indent: .3em;
   color: #181818;
+  border-bottom: 3px solid transparent;
 }
 
 .navbar__link:hover {
@@ -21,7 +23,6 @@
 }
 
 .navbar__link--active {
-  border-radius: 4px;
-  background-color: #29b6f6;
-  transition: background-color .5s ease-in-out;
+  border-bottom: 3px solid #29b6f6;
+  transition: border-bottom .5s ease-in-out;
 }
